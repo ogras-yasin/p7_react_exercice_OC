@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>groupomania</title>
     <link rel="stylesheet" href="style.css" />
-    <title>P7 groupomania</title>
-</head>
-<body>
-    <!-- <script src="./node_modules/animejs/lib/anime.min.js"></script> -->
-    <!-- <script></script> -->
-    <script src="./dist/bundle.js">
+  </head>
+  <body>
+    <h1>Realiser en React</h1>
+    <div id="root">
+      <h2>Remplace moi par React</h2>
+      <!-- Le contenu de cet élément HTML sera remplacé par mes composants React -->
+    </div>
+    <script src="./dist/bundle.js"></script>
 
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <script>
+      console.log(React);
     </script>
-    <!-- <script src="server.js"></script> -->
-    <!-- <script src="app.js"></script> -->
 
-</body>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin type="text/babel" src="./composantFonctionnel.js">
+      //   function MyComponent() {
+      //     return <div>Mon élément remplace le contenu précédent </div>;
+      //   }
+      //   ReactDOM.render(<MyComponent />, document.getElementById("root"));
+    </script>
+  </body>
 </html>
