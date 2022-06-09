@@ -8,4 +8,9 @@
 function MyComponent() {
   return <div>Mon élément remplace le contenu précédent </div>;
 }
-ReactDOM.render(<MyComponent />, document.getElementById("root"));
+
+function Functional_composant() {
+  return <h3> i am a functional composant</h3>;
+}
+
+ReactDOM.render(<Functional_composant />, document.getElementById("root"));
